@@ -12,5 +12,6 @@
 #define MAX_TOTAL_SIZE (200 * 1024 * 1024)
 
 void handle_archive(int file_count, char *filenames[], const char *output_file);
+void handle_extract(const char *archive_file, const char *target_dir);
 
 #endif
